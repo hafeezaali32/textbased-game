@@ -1,0 +1,27 @@
+public class Title {
+	final static String ANSI_RESET = "\u001B[0m";
+	final static String ANSI_YELLOW = "\u001B[33m";
+	final static String ANSI_CYAN = "\u001B[36m";
+	final static String ANSI_GREEN = "\u001B[32m";
+	final static String ANSI_RED = "\u001B[31m";
+	final static String ANSI_WHITE = "\u001B[37m";
+
+	public static void draw() {
+		// Draws the title
+		System.out.println(ANSI_YELLOW
+				+ "================================================================================================================");
+
+		System.out.println (ANSI_RED + "(                                     \r\n"
+				+ " )\\ )                    )             " + ANSI_YELLOW + " /__\\  " + ANSI_CYAN + " .-.  .-.  .--.  _______ ,---.  ,---.     ,--,   ,-.,---.   ,-.     \r\n" + ANSI_RED 
+				+ "(()/(  (   (      (   ( /(       (     " + ANSI_YELLOW + "( \\/ ) " + ANSI_CYAN + " | |/\\| | / /\\ \\|__   __|| .-'  | .-.\\  .' .'    |(|| .-.\\  | |      \r\n" + ANSI_RED
+				+ " /(_)) )\\  )(    ))\\  )\\())  (   )\\ )  " + ANSI_YELLOW + " \\  /  " + ANSI_CYAN + " | /  \\ |/ /__\\ \\ )| |   | `-.  | `-'/  |  |  __ (_)| `-'/  | |     \r\n" + ANSI_RED
+				+ "(_))_|((_)(()\\  /((_)((_)\\   )\\ (()/(  " + ANSI_YELLOW + " /  \\/\\ " + ANSI_CYAN + "|  /\\  ||  __  |(_) |   | .-'  |   (   \\  \\ ( _)| ||   (   | |     \r\n" + ANSI_RED
+				+ "| |_   (_) ((_)(_))  | |(_) ((_) )(_)) " + ANSI_YELLOW + "/ /\\  / " + ANSI_CYAN + "|(/  \\ || |  |)|  | |   |  `--.| |\\ \\   \\  `-) )| || |\\ \\  | `--.  \r\n" + ANSI_RED
+				+ "| __|  | || '_|/ -_) | '_ \\/ _ \\| || |" + ANSI_YELLOW + "(  \\/  \\" + ANSI_CYAN + " (_)   \\||_|  (_)  `-'   /( __.'|_| \\)\\  )\\____/ `-'|_| \\)\\ |( __.' \r\n" + ANSI_RED
+				+ "|_|    |_||_|  \\___| |_.__/\\___/ \\_, | " + ANSI_YELLOW + "\\___/\\/ " + ANSI_CYAN + "                       (__)        (__)(__)            (__)(_)     \r\n" + ANSI_RED
+				+ "                                 |__/ ");	
+		System.out.println(ANSI_YELLOW
+				+ "================================================================================================================");
+
+	}
+}
